@@ -13,8 +13,10 @@ const Hero = (props) => (
         By Julio Leon
       </SectionTitle>
       <SectionText>
-
+        As a software developer with experience in JavaScript, Node.js, C#, Vue.js, React, MySQL, APIs, and databases, I bring a wealth of knowledge and skills to any organization seeking to build reliable and scalable software solutions.
       </SectionText>
+      <Button onClick={() => window.location = 'https://google.com/software.julioleon@gmail.com'}>Learn More
+      </Button>
     </LeftSection>
   </Section>
 );
