@@ -6,10 +6,10 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 // change to my own accomplishments such as how many projects ive done
 const data = [
-  { number: '10+', text: 'Open Source Projects' },
+  { number: '15+', text: 'Open Source Projects' },
   { number: 2023, text: 'Graduated from CodeWorks', },
   { number: '10+', text: 'Completed Online Courses', },
-  { number: 5000, text: 'Full-Stack Applications worked on', }
+  { number: '1st', text: 'Won a local hackathon by creating a web application that helps people find fitness workouts', }
 ];
 
 const Acomplishments = () => (
