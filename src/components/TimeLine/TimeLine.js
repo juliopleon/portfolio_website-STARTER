@@ -46,7 +46,10 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        As a software developer with experience in JavaScript, Node.js, C#, Vue.js, React, MySQL, APIs, and databases, I bring a wealth of knowledge and skills to any organization seeking to build reliable and scalable software solutions.
+        Hello! My name is Julio and I enjoy creating things that live on the internet,sports,working out. My interest in Web Development started in 2018 when I started a job at Apple providing tech support for Creative Applications, turns out I wanted to start creating them myself instead.
+        <br />
+        <br />
+        Fast-forward to today, and I've had the privilege of Attending Boise CodeWorks and Graduating with Knowledge in building Full-Stack Applications.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

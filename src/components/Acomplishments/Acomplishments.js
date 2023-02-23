@@ -6,10 +6,10 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 // change to my own accomplishments such as how many projects ive done
 const data = [
-  { number: 20, text: 'Open Source Projects' },
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: '10+', text: 'Open Source Projects' },
+  { number: 2023, text: 'Graduated from CodeWorks', },
+  { number: '10+', text: 'Completed Online Courses', },
+  { number: 5000, text: 'Full-Stack Applications worked on', }
 ];
 
 const Acomplishments = () => (
@@ -18,7 +18,7 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{card.number}+</BoxNum>
+          <BoxNum>{card.number}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
