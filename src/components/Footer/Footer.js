@@ -35,7 +35,7 @@ const Footer = () => {
       </SocialIconsContainer>
     </FooterWrapper>
 
-  );
+  )
 };
 
 export default Footer;
