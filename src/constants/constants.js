@@ -15,7 +15,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Stripe', 'Sanity.io'],
     source: 'https://github.com/juliopleon/ecommerce',
     visit: 'https://ecommerce-sanity-stripe-ibi5j4m9x-juliopleon.vercel.app/',
-    id: 1,
+    id: 1
   },
   {
     title: 'WebRTC App',
