@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'E-Commerce',
     description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: 'ecommercehp.png',
+    image: '/images/ecommercehp.png',
     tags: ['React', 'JavaScript', 'Stripe', 'Sanity.io'],
     source: 'https://github.com/juliopleon/ecommerce',
     visit: 'https://ecommerce-sanity-stripe-ibi5j4m9x-juliopleon.vercel.app/',
