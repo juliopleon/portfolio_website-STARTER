@@ -35,7 +35,7 @@ export const projects = [
     visit: 'https://google.com',
     id: 3,
   },
-];
+]
 
 export const TimeLineData = [
   // { year: 2017, text: 'Started my journey', },
