@@ -43,4 +43,4 @@ export const TimeLineData = [
   { year: 2021, text: 'Found a passion for learning Web Development', },
   { year: 2022, text: 'Attended CodeWorks and shared my projects with the world', },
   { year: 2023, text: 'Graduated from CodeWorks Full-Stack Web Development', },
-];
+]
