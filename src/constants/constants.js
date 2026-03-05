@@ -2,10 +2,10 @@ export const projects = [
   {
     title: 'Keepr',
     description: 'Keeper V3 is a Pinterest-style full stack web app I built from the ground up. Users can create and save "keeps" (image-based posts) organize them into personal vaults, and browse other users profiles. I built the entire backend in C# with .NET Core, designed the MySQL database schema with relational tables including a junction table for the vault-keep relationship, and wired it all together through a RESTful API. The frontend is built in Vue.js with component-based architecture and Auth0 for secure authentication.',
-    image: '/images/1.png',
+    image: '/images/keepr.png',
     tags: ['JavaScript', 'C#', 'MySQL', '.NET Core', 'REST API', 'MVC', 'Auth0', 'Vue.js'],
     source: 'https://github.com/juliopleon/keeprv3',
-    visit: 'https://google',
+    visit: 'https://github.com/juliopleon/keeprv3',
     id: 0,
   },
   {
@@ -20,9 +20,10 @@ export const projects = [
   {
     title: 'Breadit',
     description: "Breadit is a full-featured Reddit clone I built to push myself on a complex, production-grade application. It has everything you'd expect — users can create communities, post rich text and image content using an EditorJS-powered editor, upvote/downvote posts and comments, and search across communities in real time. I used Next.js with the App Router, Prisma ORM with a MySQL database, NextAuth for Google OAuth, Redis for caching, and UploadThing for image hosting.",
+    image: '/images/breadit.png',
     tags: ['Next.js', 'TypeScript', 'MySQL', 'Prisma', 'Redis', 'NextAuth', 'TailwindCSS'],
     source: 'https://github.com/juliopleon/breadit-clone',
-    visit: 'https://google.com',
+    visit: 'https://github.com/juliopleon/breadit-clone',
     id: 2,
   },
   {
