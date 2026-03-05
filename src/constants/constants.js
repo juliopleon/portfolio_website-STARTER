@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Keepr',
-    description: 'Keeper V3 is a Pinterest-style full stack web app I built from the ground up. Users can create and save "keeps" (image-based posts) organize them into personal vaults, and browse other users profiles. I built the entire backend in C# with .NET Core, designed the MySQL database schema with relational tables including a junction table for the vault-keep relationship, and wired it all together through a RESTful API. The frontend is built in Vue.js with component-based architecture and Auth0 for secure authentication.',
+    description: 'A Pinterest-style full stack app where users create and save image posts, organize them into personal vaults, and browse other profiles. Built with a C# .NET Core backend, MySQL relational database, RESTful API, and Vue.js frontend with Auth0 authentication.',
     image: '/images/keepr.png',
     tags: ['JavaScript', 'C#', 'MySQL', '.NET Core', 'REST API', 'MVC', 'Auth0', 'Vue.js'],
     source: 'https://github.com/juliopleon/keeprv3',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'E-Commerce Store',
     description: 'A fully functional ecommerce storefront with real Stripe payment processing and Sanity.io headless CMS for live product management. Built with Next.js and React Context for cart state.',
-    image: '/images/ecommercehp.png',
+    image: '/images/ecommerce2.png',
     tags: ['React.js', 'Stripe', 'Sanity.io', 'Next.js'],
     source: 'https://github.com/juliopleon/ecommerce',
     visit: 'https://ecommerce-sanity-stripe-ibi5j4m9x-juliopleon.vercel.app/',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Breadit',
-    description: "Breadit is a full-featured Reddit clone I built to push myself on a complex, production-grade application. It has everything you'd expect — users can create communities, post rich text and image content using an EditorJS-powered editor, upvote/downvote posts and comments, and search across communities in real time. I used Next.js with the App Router, Prisma ORM with a MySQL database, NextAuth for Google OAuth, Redis for caching, and UploadThing for image hosting.",
+    description: "A full-featured Reddit clone with subreddit creation, post voting, nested comments, Google OAuth, image uploads, Redis caching, and real-time search. Built with Next.js 13 App Router, TypeScript, Prisma ORM, and MySQL.",
     image: '/images/breadit.png',
     tags: ['Next.js', 'TypeScript', 'MySQL', 'Prisma', 'Redis', 'NextAuth', 'TailwindCSS'],
     source: 'https://github.com/juliopleon/breadit-clone',
