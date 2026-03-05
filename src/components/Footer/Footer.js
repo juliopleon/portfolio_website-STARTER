@@ -14,12 +14,12 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="software.julioleon@gmail.com">software.julioleon@gmail.com</LinkItem>
+          <LinkItem href="julioleon.eng@gmail.com">julioleon.eng@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Innovating one idea at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/juliopleon">

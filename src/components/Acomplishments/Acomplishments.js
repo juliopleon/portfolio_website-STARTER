@@ -8,8 +8,9 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 const data = [
   { number: '15+', text: 'Open Source Projects' },
   { number: 2023, text: 'Graduated from CodeWorks', },
-  { number: '10+', text: 'Completed Online Courses', },
-  { number: '1st', text: 'Won a local hackathon by creating a web application that helps people find fitness workouts', }
+  // { number: '20+', text: 'Completed Online Courses', },
+  { number: '1st', text: 'Won a local hackathon by creating a web application that helps people find fitness workouts', },
+  { number: 2026, text: 'Graduating from WGU Bachelor in Computer Science', },
 ];
 
 const Acomplishments = () => (

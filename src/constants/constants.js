@@ -39,8 +39,10 @@ export const projects = [
 
 export const TimeLineData = [
   // { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: "Worked as Tech Support for Apple's Creative Applications", },
-  { year: 2021, text: 'Found a passion for learning Web Development', },
-  { year: 2022, text: 'Attended CodeWorks and shared my projects with the world', },
+  // { year: 2018, text: "Worked as Tech Support for Apple's Creative Applications", },
+  // { year: 2021, text: 'Found a passion for learning Web Development', },
+  // { year: 2022, text: 'Attended CodeWorks and shared my projects with the world', },
   { year: 2023, text: 'Graduated from CodeWorks Full-Stack Web Development', },
+  { year: 2024, text: 'Started my Bachelor in Computer Science (AI Specialization)', },
+  { year: 2026, text: 'Graduating with my Bachelor in Computer Science (AI Specialization)', },
 ];

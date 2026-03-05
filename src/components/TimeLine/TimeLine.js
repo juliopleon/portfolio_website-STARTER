@@ -44,12 +44,9 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>About me</SectionTitle>
       <SectionText>
-        Hello! My name is Julio and I enjoy creating things that live on the internet,sports,working out. My interest in Web Development started in 2018 when I started a job at Apple providing tech support for Creative Applications, turns out I wanted to start creating them myself instead.
-        <br />
-        <br />
-        Fast-forward to today, and I've had the privilege of Attending Boise CodeWorks and Graduating with Knowledge in building Full-Stack Applications.
+        Hello! My name is Julio and I enjoy building things that live on the internet. My interest in software engineering started in 2018 when I took a job at Apple providing tech support for Creative Applications, and I quickly realized I didn't just want to support software — I wanted to build it. That curiosity led me down the path of web development, and eventually into the world of AI and machine learning, where I now spend a lot of my time thinking about how intelligent systems can solve real problems. When I'm not coding, you can find me watching sports or in the gym.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -99,7 +96,7 @@ const Timeline = () => {
 
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) => {
+        {TimeLineData.map((activeItem, index) => {
           return (
             <CarouselButton
               key={index}

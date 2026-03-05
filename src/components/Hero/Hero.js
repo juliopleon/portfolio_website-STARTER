@@ -8,14 +8,13 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio <br />
-        By Julio Leon
+      Julio Leon: <br />
+      Turning Ideas into Reality <br />
       </SectionTitle>
       <SectionText>
-        As a software developer with experience in JavaScript, Node.js, C#, Vue.js, React, MySQL, APIs, and databases, I bring a wealth of knowledge and skills to any organization seeking to build reliable and scalable software solutions.
+      AI Software Engineer with a passion for building powerful back-end systems and clean, modern front-end. I work across the full stack from Python, Java, C++ and C# on the back-end with MySQL and AWS infrastructure, to React.js, Next.js, and TypeScript on the front-end. AWS Cloud Practitioner certified, with hands-on experience in AI/ML, cloud optimization, and delivering scalable software that solves real problems. I care about writing code that is reliable, secure, and built to last.
       </SectionText>
-      <Button onClick={() => window.location = "mailto:software.julioleon@gmail.com"}>Get in Touch
+      <Button onClick={() => window.location = "mailto:julioleon.eng@gmail.com"}>Get in Touch
       </Button>
     </LeftSection>
   </Section>
